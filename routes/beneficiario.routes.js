@@ -1,9 +1,19 @@
-
 const express = require('express');
 const router = express.Router();
+const beneficiarioController = require('../controllers/beneficiario.controller');
 
-router.get('/', (req, res) => {
-  res.send('Ruta beneficiarios funcionando');
-});
+
+router.get('/', beneficiarioController.getBeneficiarios);
+
+
+router.get('/:id', beneficiarioController.getBeneficiarioById);
+
+router.post('/', beneficiarioController.postBeneficiario);
+
+
+router.put('/:id', beneficiarioController.putBeneficiario);
+
+
+router.delete('/:id', beneficiarioController.deleteBeneficiario);
 
 module.exports = router;
