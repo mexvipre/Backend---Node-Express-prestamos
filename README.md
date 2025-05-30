@@ -1,4 +1,4 @@
-# Backend - Node + Express - Contratos y Beneficiarios
+# Parte 02 Backend - Node + Express - Contratos y Beneficiarios
 
 Este es un proyecto backend desarrollado con **Node.js** y **Express**, que permite gestionar rutas y vistas relacionadas con contratos y beneficiarios. Utiliza el motor de plantillas **EJS** para renderizar contenido dinámico en el navegador.
 
